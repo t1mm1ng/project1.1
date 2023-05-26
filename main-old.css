@@ -1,0 +1,345 @@
+
+
+/* Objects pages */
+.b-objects-main-title {
+    font-size: 20px;
+    color: #4e4128;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+    padding: 14px 20px;
+    background: url('../img/1px.png') 0 0 repeat;
+    font-weight: normal;
+    margin: 0;
+}
+
+.b-objects-title {
+    background: linear-gradient(to bottom, #fbc244, #ffaa22);
+    width: 99%;
+    height: 35px;
+    padding-left: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.b-objects-title h1 {
+    float: left;
+    color: black;
+    font: bold 18px 'SegoeUIRegular';
+    line-height: 1.9;
+    margin-top: 0;
+}
+
+.b-objects-title a {
+    display: block;
+    float: right;
+    width: 160px;
+    height: 20px;
+    background: linear-gradient(to bottom, #944300, #301900);
+    color: white !important;
+    font: bold 10px 'SegoeUIRegular';
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2;
+    outline: 1px solid #fcc440;
+    -moz-outline:1px solid #fcc440;
+    border-radius: 2px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.b-objects-title a:hover {
+    background: linear-gradient(to bottom, #301900, #944300);
+}
+
+p.b-objects-terms,
+p.b-objects-task {
+    font: 18px 'SegoeUIRegular';
+    color: black;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    color: #282724;
+}
+
+p.b-objects-task {
+    margin-bottom: 30px;
+}
+
+p.b-objects-terms span,
+p.b-objects-task span {
+    font-weight: bold;
+}
+
+h2.b-objects-another__header {
+    background: linear-gradient(to bottom, #fbc244, #ffaa22);
+    width: 100%;
+    height: 35px;
+    color: #31302a;
+    font: bold 18px 'SegoeUIRegular';
+    line-height: 1.9;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+
+.b-objects-another__item {
+    width: 99%;
+    height: 35px;
+    padding-left: 10px;
+    background: #ededed;
+    color: #27211d;
+    font: bold 18px 'SegoeUIRegular';
+    line-height: 1.9;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+a.b-objects-another__item-title {
+    color: #27211d;
+    font: bold 18px 'SegoeUIRegular';
+    line-height: 1.9;
+    text-decoration: none;
+}
+
+a.b-objects-another__item-link {
+    display: block;
+    float: right;
+    width: 160px;
+    height: 20px;
+    background: #dcdcdc;
+    color: #33322f;
+    font: bold 10px 'SegoeUIRegular';
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2;
+    border: 1px solid;
+    border-top-color: #e9e9e9;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #c9c9c9;
+    border-radius: 2px;
+    margin-top: 7px;
+    margin-right: 10px;
+    position: relative;
+}
+
+a.b-objects-another__item-link:hover {
+    background: linear-gradient(to bottom, #e9e9e9, #c9c9c9);
+}
+
+/* Objects slider */
+.b-objects-slider__outer {
+    position: relative;
+}
+
+.b-objects-slider {
+    width: 834px;
+    margin: auto;
+}
+
+.b-objects-slider .lSSlideWrapper, .lSSlideWrapper .lSFade {
+    position: static;
+}
+
+.b-objects-slider ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+
+.b-objects-slider li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+
+.b-objects-slider img {
+    display: block;
+    height: auto;
+    max-width: 700px;
+    margin: auto;
+
+}
+
+.b-objects-slider .lSSlideOuter .lSPager.lSGallery img {
+    width: 153px;
+    max-width: none;
+}
+
+.b-objects-slider .lSAction > a {
+    width: 122px;
+    height: 658px;
+    top: 0;
+    z-index: 10;
+}
+
+.b-objects-slider .lSAction > .lSPrev {
+    left: 6px;
+    top: 16px;
+}
+
+.b-objects-slider .lSAction > .lSNext {
+    background-position: -122px 0;
+    right: 6px;
+    top: 16px;
+}
+
+/* Objects page */
+.b-object-excerpt {
+    margin-bottom: 30px;
+    width: 99%;
+    position: relative;
+}
+.object_cat .b-object-excerpt {
+  
+  width: 99%;
+  height: 435px;
+  display: inline-block;
+}
+.object_cat .b-object-excerpt:nth-child(1) {
+   margin-right: 15px;
+}
+
+.b-object-excerpt__header {
+    background: linear-gradient(to bottom, #fbc244, #ffa821);
+    /*width: 910px;*/
+    width: 100%;
+    height: 35px;
+    color: black;
+    font: bold 18px 'SegoeUIRegular';
+    line-height: 1.9 !important;
+    padding-left: 10px;
+    margin-bottom: 1px;
+}
+.object_cat .b-object-excerpt__header {
+  
+  width: 100%; 
+  font-size: 15px;
+  line-height: 32px !important;
+}
+.b-object-excerpt__header a {
+    display: block;
+    float: right;
+    width: 170px;
+    height: 20px;
+    background: linear-gradient(to bottom, #944300, #301900);
+    color: white !important;
+    font: bold 10px 'SegoeUIRegular';
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2;
+    outline: 1px solid #fcc440;
+    -moz-outline:1px solid #fcc440;
+    border-radius: 2px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.b-object-excerpt__header a:hover {
+    background: linear-gradient(to bottom, #301900, #944300);
+}
+
+.b-object-excerpt__img {
+    width: 100%;
+    height: 200px;
+}
+.object_cat .b-object-excerpt__img {
+  width: 842px;  
+  height: 386px;
+}
+.b-object-excerpt__img a {
+  display: block;
+  height: 100%;
+}
+.b-object-excerpt__amount {
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    background: rgba(255, 255, 255, 0.50);
+    text-align: right;
+    font: bold 14px Arial;
+    color: black;
+    line-height: 2.3;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+.object_cat .b-object-excerpt__amount {
+  height: 40px;
+  background: #ffa821 url('../img/photo2.png') no-repeat 18px center; 
+  background-repeat: no-repeat;
+  width: 185px;
+  right: 0;
+  bottom: -1px;  
+  line-height: 40px;
+}
+.object_cat .b-object-excerpt__amount:before{
+  content: '';
+  display:block;   
+  width: 0;
+	height: 0;
+	border-bottom: 40px solid #ffa821;  
+	border-left: 40px solid transparent;
+  position: absolute;
+  left: -40px;
+}
+
+
+
+table.our-machines { 
+    width: 100%;
+    background-color: #f9ba06;
+	margin-bottom: 10px;
+}
+td.machine-count {
+    background-color: #fff;
+    border: 5px #f9ba06 solid;
+    font-size: 24px;
+    font-weight: 900;
+    color: #2c2a29;
+    text-align: center;
+}
+td.machine-name {
+    font-size: 18px;
+    color: #2c2a29;  
+}
+.machine-list {
+	color: #2c2a29;
+}
+.machine-list-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin-left: 6px;
+	margin-bottom: 10px;
+}
+.machine-list-item:nth-child(3n+1) {    
+    margin-left: 0px;
+}
+.machine-list-img img {
+	width: 300px;
+	margin: 0;
+	float: none;
+	border: none;
+	padding: 0;
+	height: 225px;
+}
+.machine-list-text {
+	 background-color: #f9ba06;
+	 padding: 9px;
+	 min-height: 135px;
+}
+.machine-list-title {
+	border-bottom: 3px #fff dotted;
+	padding-bottom: 6px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.machine-list-desc {
+	padding-top: 6px;
+	font-size: 12px;
+	font-weight: 300;
+}
